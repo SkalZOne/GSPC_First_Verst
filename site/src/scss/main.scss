@@ -1,3 +1,69 @@
-a {
-    background: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #CACACA;
+}
+
+button {
+    border: none;
+}
+
+header {
+    height: 280px;
+
+    .links {
+        height: 40px;
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+
+        .inner {
+            width: 860px;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+
+            button {
+                font-size: 21px;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                height: 40px;
+                border-radius: 20px;
+                text-transform: uppercase;
+                padding: 0 10px 0 10px;
+
+                &:nth-child(1) {
+                    background-color: black;
+                    border: 1px solid black;
+                    color: white;
+                    width: 81px;
+                    font-size: 19px;
+                }
+                &:nth-child(1n+2) {
+                    width: auto;
+                    background-color: transparent;
+                    border: 1px solid black;
+                    font-weight: 700;
+                }
+                &:nth-child(5) {
+                    background-color: #99FF91;
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+
+    .line {
+        width: 95%;
+        margin: 0px 2.5% 0px 2.5%;
+        background-color: black;
+        height: 1px;
+        margin-top: 10px;
+    }
 }
