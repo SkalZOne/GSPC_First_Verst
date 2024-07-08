@@ -69,35 +69,35 @@ header .links .inner button:nth-child(5) {
   margin: 0 19.5px 0 19.5px;
   display: flex;
 }
-.firstblock .leftblock {
+.firstblock .content {
   width: 55%;
   height: 100%;
 }
-.firstblock .leftblock p {
+.firstblock .content p {
   margin-top: 20px;
 }
-.firstblock .leftblock p:nth-child(1) {
+.firstblock .content p:nth-child(1) {
   font-size: 24px;
   line-height: 28.8px;
   text-transform: uppercase;
 }
-.firstblock .leftblock p:nth-child(2) {
+.firstblock .content p:nth-child(2) {
   font-size: 98px;
   line-height: 98px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
   font-weight: 700;
 }
-.firstblock .leftblock p:nth-child(3) {
+.firstblock .content p:nth-child(3) {
   font-size: 28px;
   line-height: 33.6px;
 }
-.firstblock .leftblock p:nth-child(4) {
+.firstblock .content p:nth-child(4) {
   font-size: 18px;
   line-height: 27px;
   width: 569px;
 }
-.firstblock .leftblock button {
+.firstblock .content button {
   border: 1px solid black;
   background-color: #99FF91;
   width: 191px;
@@ -112,14 +112,122 @@ header .links .inner button:nth-child(5) {
   text-transform: uppercase;
   margin-top: 30px;
 }
-.firstblock .leftblock button img {
+.firstblock .content button img {
   top: 0;
   margin-left: 5px;
   width: 17.48px;
   height: 17.85px;
 }
-.firstblock img {
+.firstblock .content img {
   position: relative;
   bottom: 30px;
+}
+
+.secondblock {
+  width: 1339px;
+  height: 1130px;
+  display: flex;
+  margin-top: 50px;
+}
+.secondblock .leftblock {
+  height: 100%;
+  width: 50%;
+  padding-left: 30px;
+}
+.secondblock .leftblock p {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.secondblock .leftblock p:nth-child(1) {
+  font-size: 21px;
+}
+.secondblock .leftblock p:nth-child(2) {
+  font-size: 72px;
+  letter-spacing: 0.5px;
+  width: 379px;
+  margin-top: 40px;
+}
+.secondblock .leftblock p:nth-child(3) {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31.2px;
+  text-transform: none;
+  width: 542px;
+}
+.secondblock .leftblock .inner {
+  border: 1px solid #333333;
+  width: 576px;
+  height: 192px;
+  border-radius: 36px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.secondblock .leftblock .inner:nth-child(4) {
+  margin-top: 100px;
+}
+.secondblock .leftblock .inner .innerchild {
+  width: 72%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondblock .leftblock .inner .innerchild p {
+  margin: 0;
+}
+.secondblock .leftblock .inner .innerchild p:nth-child(1) {
+  font-size: 21px;
+  line-height: 25.2px;
+  letter-spacing: 0.2px;
+  width: 300px;
+}
+.secondblock .leftblock .inner .innerchild p:nth-child(2) {
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  text-transform: none;
+  margin-top: 20px;
+}
+.secondblock .rightblock {
+  border: 1px solid #333333;
+  background: linear-gradient(180deg, #99FF91 0%, #61D1F2 100%);
+  height: 632px;
+  width: 688px;
+  margin-right: 20px;
+  border-radius: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondblock .rightblock .inner {
+  margin: 40px 40px 40px 40px;
+  width: 590px;
+  height: 534px;
+}
+.secondblock .rightblock .inner p:nth-child(1) {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52.8px;
+}
+.secondblock .rightblock .inner p:nth-child(2) {
+  font-size: 20px;
+  line-height: 27px;
+}
+.secondblock .rightblock .inner .line {
+  margin-top: 80px;
+  height: 2px;
+}
+.secondblock .rightblock .inner button {
+  width: 590px;
+  height: 108px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 21px;
+  background-color: black;
+  border: 1px solid black;
+  margin-top: 75px;
 }
 /*# sourceMappingURL=main.css.map */
