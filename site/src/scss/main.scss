@@ -11,6 +11,7 @@
             font-size: 24px;
             line-height: 28.8px;
             text-transform: uppercase;
+            margin-bottom: 40px;
            } 
            &:nth-child(2) {
             font-size: 98px;
@@ -52,11 +53,6 @@
                 height: 17.85px;
             }
         }
-
-        img {
-            position: relative;
-            bottom: 30px;
-        }
     }
 }
 
@@ -67,6 +63,7 @@
 
 body {
     background-color: #CACACA;
+    overflow-x: hidden;
 }
 
 button {
@@ -142,6 +139,7 @@ header {
     height: 1130px;
     display: flex;
     margin-top: 50px;
+    margin-bottom: 100px;
 
     .leftblock {
         height: 100%;
@@ -261,5 +259,51 @@ header {
             }
         }
         
+    }
+}
+
+.thirdblock {
+    display: flex;
+    @include content();
+
+    .content {
+        position: relative;
+        right: 100px;
+    }
+
+    img {
+        position: relative;
+        right: 100px;
+        max-width: 759px;
+        height: 688px;
+
+    }
+
+    p {
+
+        &:nth-child(2) {
+            width: 700px;
+        }
+
+        &:nth-child(3) {
+            width: 506px;
+        }
+
+        &:nth-child(4) {
+            max-width: 528px;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+
+        button {
+            &:nth-child(2) {
+                background-color: white;
+                width: 146px;
+            }
+        }
     }
 }

@@ -6,6 +6,7 @@
 
 body {
   background-color: #CACACA;
+  overflow-x: hidden;
 }
 
 button {
@@ -80,6 +81,7 @@ header .links .inner button:nth-child(5) {
   font-size: 24px;
   line-height: 28.8px;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 .firstblock .content p:nth-child(2) {
   font-size: 98px;
@@ -118,16 +120,13 @@ header .links .inner button:nth-child(5) {
   width: 17.48px;
   height: 17.85px;
 }
-.firstblock .content img {
-  position: relative;
-  bottom: 30px;
-}
 
 .secondblock {
   width: 1339px;
   height: 1130px;
   display: flex;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 .secondblock .leftblock {
   height: 100%;
@@ -229,5 +228,87 @@ header .links .inner button:nth-child(5) {
   background-color: black;
   border: 1px solid black;
   margin-top: 75px;
+}
+
+.thirdblock {
+  display: flex;
+}
+.thirdblock .content {
+  width: 55%;
+  height: 100%;
+}
+.thirdblock .content p {
+  margin-top: 20px;
+}
+.thirdblock .content p:nth-child(1) {
+  font-size: 24px;
+  line-height: 28.8px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.thirdblock .content p:nth-child(2) {
+  font-size: 98px;
+  line-height: 98px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.thirdblock .content p:nth-child(3) {
+  font-size: 28px;
+  line-height: 33.6px;
+}
+.thirdblock .content p:nth-child(4) {
+  font-size: 18px;
+  line-height: 27px;
+  width: 569px;
+}
+.thirdblock .content button {
+  border: 1px solid black;
+  background-color: #99FF91;
+  width: 191px;
+  height: 27px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.thirdblock .content button img {
+  top: 0;
+  margin-left: 5px;
+  width: 17.48px;
+  height: 17.85px;
+}
+.thirdblock .content {
+  position: relative;
+  right: 100px;
+}
+.thirdblock img {
+  position: relative;
+  right: 100px;
+  max-width: 759px;
+  height: 688px;
+}
+.thirdblock p:nth-child(2) {
+  width: 700px;
+}
+.thirdblock p:nth-child(3) {
+  width: 506px;
+}
+.thirdblock p:nth-child(4) {
+  max-width: 528px;
+}
+.thirdblock .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+.thirdblock .buttons button:nth-child(2) {
+  background-color: white;
+  width: 146px;
 }
 /*# sourceMappingURL=main.css.map */
