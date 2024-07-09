@@ -342,3 +342,40 @@ header {
 
     @include content();
 }
+
+.fifthblock {
+    border: 2px solid black;
+    width: 1339px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+    .inner {
+        width: 622px;
+        height: 598px;
+        border-radius: 36px;
+        border: 1px solid black;
+
+        @include content();
+        p{
+            margin-left: 50px;
+            &:nth-child(2) {
+                width: 500px;
+                font-size: 52px !important;
+                line-height: 57.2px !important;
+                margin-top: 80px;
+            }
+            &:nth-child(3) {
+                width: 557px;
+            }
+            &:nth-child(4) {
+                max-width: 542px;
+            }
+        }
+
+        .buttons {
+            margin-left: 50px;
+        }
+    }
+}
