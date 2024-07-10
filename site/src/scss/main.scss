@@ -320,7 +320,6 @@ header {
 .fourthblock {
     width: 1339px;
     height: 854px;
-    border: 2px solid black;
     display: flex;
 
     .buttons {
@@ -344,7 +343,6 @@ header {
 }
 
 .fifthblock {
-    border: 2px solid black;
     width: 1339px;
     height: 600px;
     display: flex;
@@ -381,7 +379,6 @@ header {
 }
 
 .sixthblock {
-    border: 2px solid black;
     margin-top: 70px;
     width: 1339px;
     height: 830px;
@@ -448,5 +445,104 @@ header {
         width: 2645px;
         font-weight: 700;
         line-height: 360px;
+    }
+}
+
+footer {
+    width: 1339px;
+    height: 470px;
+    display: flex;
+
+    .leftblock {
+        width: 600px;
+        height: 254px;
+
+        p {
+            margin-top: 100px;
+            margin-left: 40px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 36px;
+        }
+
+        @include content();
+
+        button {
+            background-color: #99FF91;
+            margin-left: 40px;
+        }
+    }
+    .rightblock {
+        width: 730px;
+        height: 454px;
+
+        .inner {
+            height: 302px;
+            
+            &:nth-child(1) {
+                display: flex;
+            }
+            &:nth-child(2) {
+                height: 150px;
+            }
+
+            .column {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+
+                button {
+                    height: 51px;
+                    border-radius: 50px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    border: 1px solid black;
+
+                    &:nth-child(1) {
+                        width: 122px;
+                        color: white;
+                        background-color: black;
+                    }
+                    &:nth-child(1n+2) {
+                        background-color: transparent;
+                    }
+                    &:nth-child(2) {
+                        width: 320px;
+                    }
+                    &:nth-child(3) {
+                        width: 254px;
+                    }
+                    &:nth-child(4) {
+                        width: 188px;
+                    }
+                    &:nth-child(5) {
+                        width: 234px;
+                        background-color: #99FF91;
+                        padding-right: 34px;
+                    }
+                }
+
+                a {
+                    font-size: 16px;
+                    letter-spacing: 0.2px;
+                    text-transform: uppercase;
+                    color: black;
+                    margin-top: 15px;
+                }
+            }
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 50px;
+                }
+
+                text-transform: uppercase;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+        }
     }
 }
