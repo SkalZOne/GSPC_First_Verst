@@ -379,3 +379,56 @@ header {
         }
     }
 }
+
+.sixthblock {
+    border: 2px solid black;
+    margin-top: 70px;
+    width: 1339px;
+    height: 830px;
+    display: flex;
+
+    img {
+        width: 816px;
+        height: 767px
+    }
+
+    @include content();
+
+    .content {
+        margin-left: 20px;
+
+        p{
+
+            &:nth-child(1) {
+                font-weight: 700;
+            }
+
+            &:nth-child(2) {
+                width: 509px;
+                font-size: 72px;
+                line-height: 79.2px;
+            }
+
+            &:nth-child(3) {
+                font-size: 18px !important;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .buttons {
+            width: 400px;
+
+            button {
+                &:nth-child(1) {
+                    background-color: #B3B5FF;
+                    width: 232px;
+                }
+            }
+        }
+    }
+}
