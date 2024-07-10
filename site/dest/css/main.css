@@ -502,6 +502,7 @@ header .links .inner button:nth-child(5) {
 .sixthblock img {
   width: 816px;
   height: 767px;
+  margin-top: 50px;
 }
 .sixthblock .content {
   width: 55%;
@@ -586,5 +587,21 @@ header .links .inner button:nth-child(5) {
 .sixthblock .content .buttons button:nth-child(1) {
   background-color: #B3B5FF;
   width: 232px;
+}
+
+.seventhblock {
+  border-bottom: 1px solid black;
+  width: 1339px;
+  height: 320px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.seventhblock p {
+  position: relative;
+  right: 495px;
+  font-size: 185px;
+  width: 2645px;
+  font-weight: 700;
+  line-height: 360px;
 }
 /*# sourceMappingURL=main.css.map */
